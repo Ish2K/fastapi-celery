@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 aiohttp==3.8.4
 aiosignal==1.3.1
 amqp==5.1.1
@@ -76,3 +77,14 @@ websockets==10.4
 yarl==1.8.2
 zope.event==4.6
 zope.interface==5.5.2
+=======
+aiofiles==0.6.0
+celery==4.4.7
+fastapi==0.64.0
+flower==0.9.7
+Jinja2==3.0.3
+pytest==6.2.4
+redis==3.5.3
+requests==2.25.1
+uvicorn==0.13.4
+>>>>>>> e3f5bd0c5df2e9830660b187b6f1c334f8f528b2

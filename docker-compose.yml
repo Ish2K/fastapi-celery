@@ -29,7 +29,11 @@ services:
 
   redis:
     image: redis:6-alpine
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> e3f5bd0c5df2e9830660b187b6f1c334f8f528b2
   dashboard:
     build: ./project
     command:  flower --app=worker.celery --port=5555 --broker=redis://redis:6379/0
@@ -41,4 +45,8 @@ services:
     depends_on:
       - web
       - redis
+<<<<<<< HEAD
       - worker
+=======
+      - worker
+>>>>>>> e3f5bd0c5df2e9830660b187b6f1c334f8f528b2

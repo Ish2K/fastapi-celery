@@ -1,9 +1,9 @@
+from celery.result import AsyncResult
 from fastapi import Body, FastAPI, Form, Request
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from worker import create_task
-from celery.result import AsyncResult
+
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
@@ -19,8 +19,8 @@ def home(request: Request):
 @app.post("/tasks", status_code=201)
 def run_task(payload = Body(...)):
     task_type = payload["type"]
-    task = create_task.delay(int(task_type))
-    return JSONResponse({"task_id": task.id})
+    return JSONResponse(task_type)
+
 
 @app.get("/tasks/{task_id}")
 def get_status(task_id):
