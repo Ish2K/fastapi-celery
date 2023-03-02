@@ -12,8 +12,4 @@ celery.conf.result_backend = os.environ.get("CELERY_RESULT_BACKEND", "redis://lo
 @celery.task(name="create_task")
 def create_task(task_type):
     time.sleep(int(task_type) * 10)
-<<<<<<< HEAD
     return True
-=======
-    return True
->>>>>>> e3f5bd0c5df2e9830660b187b6f1c334f8f528b2
