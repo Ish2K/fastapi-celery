@@ -3,13 +3,12 @@ version: '3.8'
 services:
 
   web:
-    image: public.ecr.aws/a0p9e9u9/fastapi-celery-app:web
     build: ./project
     ports:
-      - 8000:8000
+      - 8004:8000
     command: uvicorn main:app --host 0.0.0.0 --reload
-    # volumes:
-    #   - ./project:/usr/src/app
+    volumes:
+      - ./project:/usr/src/app
     environment:
       - CELERY_BROKER_URL=redis://:password@redis:6379/0
       - CELERY_RESULT_BACKEND=redis://:password@redis:6379/0
@@ -17,11 +16,10 @@ services:
       - redis
 
   worker:
-    image: public.ecr.aws/a0p9e9u9/fastapi-celery-app:worker
     build: ./project
     command: celery worker --app=worker.celery --loglevel=info --logfile=logs/celery.log
-    # volumes:
-    #   - ./project:/usr/src/app
+    volumes:
+      - ./project:/usr/src/app
     environment:
       - CELERY_BROKER_URL=redis://:password@redis:6379/0
       - CELERY_RESULT_BACKEND=redis://:password@redis:6379/0
@@ -36,11 +34,10 @@ services:
     env_file:
       - redis.env
   dashboard:
-    image: public.ecr.aws/a0p9e9u9/fastapi-celery-app:dashboard
     build: ./project
     command:  flower --app=worker.celery --port=5555 --broker=redis://:password@redis:6379/0
     ports:
-      - 5555:5555
+      - 5556:5555
     environment:
       - CELERY_BROKER_URL=redis://:password@redis:6379/0
       - CELERY_RESULT_BACKEND=redis://:password@redis:6379/0

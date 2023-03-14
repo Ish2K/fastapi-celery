@@ -4,3 +4,4 @@ __pycache
 *.log
 *.pem
 rootkey.csv
+*.env

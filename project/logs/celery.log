@@ -106,3 +106,143 @@
 [2023-03-13 10:29:21,566: INFO/MainProcess] Events of group {task} enabled by remote.
 [2023-03-13 11:19:42,474: INFO/MainProcess] Received task: create_task[6fae4908-0b1c-4256-95e6-1fd714c89be6]  
 [2023-03-13 11:19:52,516: INFO/ForkPoolWorker-15] Task create_task[6fae4908-0b1c-4256-95e6-1fd714c89be6] succeeded in 10.024209696999606s: True
+[2023-03-14 08:33:40,606: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-03-14 08:33:40,614: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-14 08:33:41,629: INFO/MainProcess] mingle: all alone
+[2023-03-14 08:33:41,638: INFO/MainProcess] celery@1c54cfb48e96 ready.
+[2023-03-14 08:33:45,279: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-14 09:17:19,841: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-03-14 09:17:19,846: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-14 09:17:20,862: INFO/MainProcess] mingle: all alone
+[2023-03-14 09:17:20,875: INFO/MainProcess] celery@6baa40ddfecb ready.
+[2023-03-14 09:17:24,404: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-14 09:17:28,770: INFO/MainProcess] Received task: create_task[a23e7d9c-3fa5-4243-8411-3c26b01d460e]  
+[2023-03-14 09:17:38,790: INFO/ForkPoolWorker-15] Task create_task[a23e7d9c-3fa5-4243-8411-3c26b01d460e] succeeded in 10.017468766000093s: True
+[2023-03-14 09:39:09,987: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -2 connecting to redis:6379. Name or service not known..
+Trying again in 2.00 seconds... (1/100)
+
+[2023-03-14 09:39:14,521: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -2 connecting to redis:6379. Name or service not known..
+Trying again in 4.00 seconds... (2/100)
+
+[2023-03-14 09:39:28,537: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 6.00 seconds... (3/100)
+
+[2023-03-14 09:39:44,553: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 8.00 seconds... (4/100)
+
+[2023-03-14 09:40:02,580: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 10.00 seconds... (5/100)
+
+[2023-03-14 09:40:22,607: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 12.00 seconds... (6/100)
+
+[2023-03-14 09:41:21,256: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -2 connecting to redis:6379. Name or service not known..
+Trying again in 2.00 seconds... (1/100)
+
+[2023-03-14 09:41:25,770: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -2 connecting to redis:6379. Name or service not known..
+Trying again in 4.00 seconds... (2/100)
+
+[2023-03-14 09:41:39,788: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 6.00 seconds... (3/100)
+
+[2023-03-14 09:41:55,808: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 8.00 seconds... (4/100)
+
+[2023-03-14 09:42:13,827: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 10.00 seconds... (5/100)
+
+[2023-03-14 09:42:26,365: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -2 connecting to redis:6379. Name or service not known..
+Trying again in 12.00 seconds... (6/100)
+
+[2023-03-14 09:42:48,391: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 14.00 seconds... (7/100)
+
+[2023-03-14 09:43:12,420: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 16.00 seconds... (8/100)
+
+[2023-03-14 09:43:38,452: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 18.00 seconds... (9/100)
+
+[2023-03-14 09:43:58,974: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -2 connecting to redis:6379. Name or service not known..
+Trying again in 20.00 seconds... (10/100)
+
+[2023-03-14 09:44:29,010: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 22.00 seconds... (11/100)
+
+[2023-03-14 09:45:01,046: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 24.00 seconds... (12/100)
+
+[2023-03-14 09:46:02,445: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 2.00 seconds... (1/100)
+
+[2023-03-14 09:46:04,451: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 4.00 seconds... (2/100)
+
+[2023-03-14 09:46:08,462: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 6.00 seconds... (3/100)
+
+[2023-03-14 09:46:14,475: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 8.00 seconds... (4/100)
+
+[2023-03-14 09:46:22,492: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 10.00 seconds... (5/100)
+
+[2023-03-14 09:46:32,511: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 12.00 seconds... (6/100)
+
+[2023-03-14 09:46:44,529: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 14.00 seconds... (7/100)
+
+[2023-03-14 09:46:58,548: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 16.00 seconds... (8/100)
+
+[2023-03-14 09:47:14,571: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 18.00 seconds... (9/100)
+
+[2023-03-14 09:47:32,594: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 20.00 seconds... (10/100)
+
+[2023-03-14 09:47:52,624: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 22.00 seconds... (11/100)
+
+[2023-03-14 09:48:14,656: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 24.00 seconds... (12/100)
+
+[2023-03-14 09:48:38,689: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 26.00 seconds... (13/100)
+
+[2023-03-14 09:49:04,726: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Authentication required..
+Trying again in 28.00 seconds... (14/100)
+
+[2023-03-14 09:51:18,727: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 113 connecting to redis:6379. No route to host..
+Trying again in 2.00 seconds... (1/100)
+
+[2023-03-14 09:51:30,742: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 4.00 seconds... (2/100)
+
+[2023-03-14 09:51:44,757: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 6.00 seconds... (3/100)
+
+[2023-03-14 09:53:49,020: INFO/MainProcess] Connected to redis://:**@redis:6379/0
+[2023-03-14 09:53:49,026: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-14 09:53:50,040: INFO/MainProcess] mingle: all alone
+[2023-03-14 09:53:50,050: INFO/MainProcess] celery@4f102b1c2bf0 ready.
+[2023-03-14 09:53:53,650: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-14 09:53:59,984: INFO/MainProcess] Received task: create_task[b1218cd6-daf2-45cd-84af-295c40fd4b86]  
+[2023-03-14 09:54:10,005: INFO/ForkPoolWorker-15] Task create_task[b1218cd6-daf2-45cd-84af-295c40fd4b86] succeeded in 10.018031487999906s: True
+[2023-03-14 10:14:44,391: INFO/MainProcess] Connected to redis://:**@redis:6379/0
+[2023-03-14 10:14:44,397: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-14 10:14:45,410: INFO/MainProcess] mingle: all alone
+[2023-03-14 10:14:45,421: INFO/MainProcess] celery@b85c208490b4 ready.
+[2023-03-14 10:14:49,112: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-14 10:51:11,882: INFO/MainProcess] Connected to redis://:**@redis:6379/0
+[2023-03-14 10:51:11,892: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-14 10:51:12,910: INFO/MainProcess] mingle: all alone
+[2023-03-14 10:51:12,918: INFO/MainProcess] celery@a4277bf27c23 ready.
+[2023-03-14 10:51:16,520: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-14 10:59:16,966: INFO/MainProcess] Connected to redis://:**@redis:6379/0
+[2023-03-14 10:59:16,972: INFO/MainProcess] mingle: searching for neighbors
+[2023-03-14 10:59:17,985: INFO/MainProcess] mingle: all alone
+[2023-03-14 10:59:17,996: INFO/MainProcess] celery@b116998d2254 ready.
+[2023-03-14 10:59:21,632: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-03-14 10:59:23,583: INFO/MainProcess] Received task: create_task[06f0ea39-3a20-46dd-987e-e0dba068c5f1]  
