@@ -246,3 +246,4 @@ Trying again in 6.00 seconds... (3/100)
 [2023-03-14 10:59:17,996: INFO/MainProcess] celery@b116998d2254 ready.
 [2023-03-14 10:59:21,632: INFO/MainProcess] Events of group {task} enabled by remote.
 [2023-03-14 10:59:23,583: INFO/MainProcess] Received task: create_task[06f0ea39-3a20-46dd-987e-e0dba068c5f1]  
+[2023-03-14 10:59:33,600: INFO/ForkPoolWorker-15] Task create_task[06f0ea39-3a20-46dd-987e-e0dba068c5f1] succeeded in 10.013201081997977s: True
